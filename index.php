@@ -45,6 +45,9 @@
       </ul>
     </nav>
   </header>
+  <figure class="banner">
+    <!-- <img src="img/banner.jpg" alt=""> -->
+  </figure>
 
 <section class="seccion1" id="sec-1">
   <div class="section">
@@ -98,7 +101,10 @@
   </div>
   <div style="text-align: center; margin-top: 5%;">
       <a class="btn btn-danger btn-outline btn-lg" data-scroll href="#sec-3">¡CONTACTANOS!</a>
-  </div>
+  </div> <br><br>
+   <figure class="banner2">
+    <!-- <img src="img/banner.jpg" alt=""> -->
+  </figure>
 </section>
 
 <section class="seccion2" id="sec-2">
@@ -163,11 +169,15 @@
 </section>
 
 <section class="seccion3" id="sec-3">
+     <figure class="banner3">
+    <!-- <img src="img/banner.jpg" alt=""> -->
+  </figure> <br><br><br>
   <div class="section">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h1 class="text-center text-danger">CONTACTO</h1> <br><br><br>
+     
           <p class="lead text-center">Encuentranos cerca de ti, teléfonos, horarios, direcciones y contacto.</p>
         </div>
       </div> <br><br><br>
