@@ -283,3 +283,16 @@ input:focus ~ .highlight {
     border-radius: 4px;
     /*top: 50px;*/
 }
+
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#8B1815;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+	z-index: 100;
+}

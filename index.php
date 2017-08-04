@@ -3,11 +3,17 @@
   <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
+
     <link rel="icon" type="image/png" href="img/favicon.png" />
     <title>BIBLO COMERCIALIZADORA DEL MAYAB</title>
+     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+    <META NAME="Title" content="BIBLO COMERCIALIZADORA DEL MAYAB">
+    <META NAME="Author" CONTENT="[http://biblocomercializadora.com/]"/>
+    <META name="Description" content="Somos una compañía dedicados a ofrecer servicios de comercialización de productos para ferreterías y tlapalerías, refacciones de automoviles, Etc."/>
+     <META NAME="Keywords" CONTENT="Comercialización de productos para ferreterías y tlapalerías, refacciones de automoviles."/>
+
 
     <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/iconos.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -48,6 +54,8 @@
   <figure class="banner">
     <!-- <img src="img/banner.jpg" alt=""> -->
   </figure>
+
+  <span class="ir-arriba"><i class="fa fa-arrow-up" aria-hidden="true"></i></span>
 
 <section class="seccion1" id="NOSOTROS">
   <div class="section">
@@ -281,6 +289,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.js"></script>
+    <script src="js/arriba.js"></script>
 <script src="js/bootstrap.js"></script>
   </body>
 </html>
