@@ -162,7 +162,7 @@
     </div>
 </section>
 
-<section class="seccion1" id="sec-3">
+<section class="seccion3" id="sec-3">
   <div class="section">
     <div class="container">
       <div class="row">
@@ -172,7 +172,7 @@
         </div>
       </div> <br><br><br>
       <div class="mapa">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1862.2788528992846!2d-89.62061164207454!3d21.0103594965021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5676a5f3c608e1%3A0xbe8c315b3b0d4e60!2sCalle+7A+279E%2C+Campestre%2C+97120+M%C3%A9rida%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1501800826200" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> <br><br><br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1862.2788528992846!2d-89.62061164207454!3d21.0103594965021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5676a5f3c608e1%3A0xbe8c315b3b0d4e60!2sCalle+7A+279A%2C+Campestre%2C+97120+M%C3%A9rida%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1501800826200" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> <br><br><br>
       </div>
 
         <div class="row">
@@ -218,6 +218,50 @@
     </div>
   </div>
 </section>
+
+<div class="container1">
+
+
+    <div class="col-lg-offset-4 col-lg-4" id="panel">
+        <h3 style="color: #fff;">Formulario de contacto</h3>
+
+        <form>
+
+            <div class="group">
+                <input type="text" required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Nombre Completo</label>
+            </div>
+
+            <div class="group">
+                <input type="text" required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Email</label>
+            </div>
+
+            <div class="group">
+                <input type="text" required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Teléfono</label>
+            </div>
+
+            <div class="group">
+                <input type="text" required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Comentario</label>
+            </div>
+            <div class="group">
+                <center> <button type="submit" class="btn btn-danger">Enviar Mensaje &nbsp;&nbsp;<span><i class="fa fa-paper-plane" aria-hidden="true"></i></span></button></center>
+            </div>
+        </form>
+
+    </div>
+</div>
+
 
 <footer>
 <p>Derechos de autor 2017 © | BIBLO COMERCIALIZADORA DEL MAYAB S. de R.L de C.V. </p>
