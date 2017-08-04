@@ -32,16 +32,16 @@
   <body>
 
 
-  <header id="sec-0">
+  <header id="INICIO">
     <figure class="logo pull-left">
       <img src="img/biblo.png" class="img-responsive" alt="">
     </figure>
     <nav class="pull-right">
       <ul>
-        <a class="selector" id="select" data-scroll href="#sec-0" aria-pressed="true">INICIO</a>
-        <a class="selector" data-scroll href="#sec-1" aria-pressed="true">NOSOTROS</a>
-        <a class="selector" data-scroll href="#sec-2" aria-pressed="true">SERVICIOS</a>
-        <a class="selector" data-scroll href="#sec-3" aria-pressed="true">CONTACTO</a>
+        <a class="selector" id="select" data-scroll href="#INICIO" aria-pressed="true">INICIO</a>
+        <a class="selector" data-scroll href="#NOSOTROS" aria-pressed="true">NOSOTROS</a>
+        <a class="selector" data-scroll href="#SERVICIOS" aria-pressed="true">SERVICIOS</a>
+        <a class="selector" data-scroll href="#CONTACTO" aria-pressed="true">CONTACTO</a>
       </ul>
     </nav>
   </header>
@@ -49,7 +49,7 @@
     <!-- <img src="img/banner.jpg" alt=""> -->
   </figure>
 
-<section class="seccion1" id="sec-1">
+<section class="seccion1" id="NOSOTROS">
   <div class="section">
     <div class="container">
       <div class="row">
@@ -100,14 +100,14 @@
     </div>
   </div>
   <div style="text-align: center; margin-top: 5%;">
-      <a class="btn btn-danger btn-outline btn-lg" data-scroll href="#sec-3">¡CONTACTANOS!</a>
+      <a class="btn btn-danger btn-outline btn-lg" data-scroll href="#CONTACTO">¡CONTACTANOS!</a>
   </div> <br><br>
    <figure class="banner2">
     <!-- <img src="img/banner.jpg" alt=""> -->
   </figure>
 </section>
 
-<section class="seccion2" id="sec-2">
+<section class="seccion2" id="SERVICIOS">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -168,7 +168,7 @@
     </div>
 </section>
 
-<section class="seccion3" id="sec-3">
+<section class="seccion3" id="CONTACTO">
      <figure class="banner3">
     <!-- <img src="img/banner.jpg" alt=""> -->
   </figure> <br><br><br>
