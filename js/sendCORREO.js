@@ -1,7 +1,8 @@
 function sendCORREO(){
 	var connect, form, result, txtNOMBRE, txtCORREO,txtTELEFONO, txtCOMENTARIO;
 	var exprCORREO = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
-	var exprNUMERO = /^1[8-9]|[2-5]\d|60$/;
+	// var exprNUMERO = /^1[8-9]|[2-5]\d|60$/;
+	// var exprNUMERO.numeric();
 	txtNOMBRE = __('txtNOMBRE').value;
 	txtCORREO = __('txtCORREO').value;
 	txtTELEFONO = __('txtTELEFONO').value;
@@ -17,13 +18,13 @@ function sendCORREO(){
         		__('_AJAX_PRE_').innerHTML = result;
 		}
 
-		else if(!exprNUMERO.test(txtTELEFONO)){
-		result = '<div class="alert alert-dismissible alert-danger">';
-			result += '<button type="button" class="close" data-dismiss="alert">&times;</button>';
-						result +='<p><strong> el campo Telefono, tiene que ser solo NUMERICO y ser CORRECTO</strong></p>';
-					result +='</div>';
-					__('_AJAX_PRE_').innerHTML = result;
-		}
+		// else if(!exprNUMERO.test(txtTELEFONO)){
+		// result = '<div class="alert alert-dismissible alert-danger">';
+		// 	result += '<button type="button" class="close" data-dismiss="alert">&times;</button>';
+		// 				result +='<p><strong> el campo Telefono, tiene que ser solo NUMERICO y ser CORRECTO</strong></p>';
+		// 			result +='</div>';
+		// 			__('_AJAX_PRE_').innerHTML = result;
+		// }
 
 		else
 		{
