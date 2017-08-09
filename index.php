@@ -6,7 +6,7 @@
 
     <link rel="icon" type="image/png" href="img/favicon.png" />
     <title>BIBLO COMERCIALIZADORA DEL MAYAB</title>
-     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <META NAME="Title" content="BIBLO COMERCIALIZADORA DEL MAYAB">
     <META NAME="Author" CONTENT="[http://biblocomercializadora.com/]"/>
     <META name="Description" content="Somos una compañía dedicados a ofrecer servicios de comercialización de productos para ferreterías y tlapalerías, refacciones de automoviles, Etc."/>
@@ -18,8 +18,10 @@
     <link rel="stylesheet" href="css/iconos.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    
+    <script src="js/general.js"></script>
+
 
     <!-- Scroll -->
     <script src="js/smooth-scroll.min.js"></script>
@@ -33,7 +35,7 @@
       callback: function ( anchor, toggle ) {} // Function to run after scrolling
       });
     </script>
-    
+
   </head>
   <body>
 
@@ -42,6 +44,9 @@
     <figure class="logo pull-left">
       <img src="img/biblo.png" class="img-responsive" alt="">
     </figure>
+    <div class="op-menu">
+      <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+    </div>
     <nav class="pull-right">
       <ul>
         <a class="selector" id="select" data-scroll href="#INICIO" aria-pressed="true">INICIO</a>
@@ -61,32 +66,33 @@
   <div class="section">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <h1 class="text-center text-danger">Acerca de nosotros</h1> <br><br><br>
-          <p class="lead text-center">Somos el distribuidor y mayorista líder en el país con un amplio portafolio de productos de ferreteria, tlapaleria, partes y refacciones nuevas para automóviles,
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <h1 class="text-center text-danger text-dise-nosotros">Acerca de nosotros</h1>
+          <p class="lead text-center text-nosotros">Somos el distribuidor y mayorista líder en el país con un amplio portafolio de productos de ferreteria, tlapaleria, partes y refacciones nuevas para automóviles,
           camionetas y camiones. </p>
         </div>
-      </div> <br><br><br>
+      </div>
 
 
-        <div class="row">
-          <div class="col-md-4">
+        <div class="row margen-arriba">
+          <div class="col-sm-6 col-md-4">
             <!-- <img src="img/1.jpg" class="img-responsive"> -->
             <div class="iconos">
               <i class="fa fa-check-square-o fa-3x fa-border text-danger" aria-hidden="true"></i>
               <!-- <i class="fa fa-address-book-o" aria-hidden="true"></i> -->
             </div>
             <h2 class="text-center">MISION</h2>
-            <p class="text-center">Nos especializamos en la comercialización de productos para ferreterías y tlapalerías, partes y refacciones nuevas para automóviles, camionetas y camiones, llegando a los principales canales de distribución, presentando excelentes servicios de venta y pos-venta a nuestros clientes y proporcionando satisfactorios resultados de crecimiento por la distribución de productos a nuestros proveedores.</p>
+            <p class="text-center text-alineado">Nos especializamos en la comercialización de productos para ferreterías y tlapalerías, partes y refacciones nuevas para automóviles, camionetas y camiones, llegando a los principales canales de distribución, presentando excelentes servicios de venta y pos-venta a nuestros clientes y proporcionando satisfactorios resultados de crecimiento por la distribución de productos a nuestros proveedores.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-6 col-md-4">
             <div class="iconos">
               <i class="fa fa-line-chart fa-3x fa-border text-danger" aria-hidden="true"></i>
               <!-- <i class="fa fa-address-book-o" aria-hidden="true"></i> -->
             </div>
             <h2 class="text-center">VISION</h2>
-            <p class="text-center">Ser la comercializadora con más amplia cobertura en servicio y tecnología de productos para ferreterías y tlapalerías, partes y refacciones nuevas para automóviles, camionetas y camiones. contando con el más eficiente y competente personal, brindando una atención con calidad y responsabilidad.</p>
+            <p class="text-center text-alineado">Ser la comercializadora con más amplia cobertura en servicio y tecnología de productos para ferreterías y tlapalerías, partes y refacciones nuevas para automóviles, camionetas y camiones. contando con el más eficiente y competente personal, brindando una atención con calidad y responsabilidad.</p>
           </div>
+          <div class="clearfix visible-sm-block"></div>
           <div class="col-md-4">
             <div class="iconos">
               <i class="fa fa-handshake-o fa-3x fa-border text-danger" aria-hidden="true"></i>
@@ -119,30 +125,30 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="text-center text-danger">SERVICIOS</h1> <br><br><br>
+          <h1 class="text-center text-danger text-dise-nosotros">SERVICIOS</h1>
           <!-- <p class="lead text-center">Para que tu operación nunca se detenga, BIBLO te ofrece soluciones que te permitirán contar con los productos que necesitas cuando y donde los necesitas.</p> -->
         </div>
-      </div>  <br><br><br>
-       <div class="row">
-          <div class="col-md-4">
+      </div>
+       <div class="row margen-arriba">
+          <div class="col-xs-12 col-sm-4 col-md-4">
             <div class="imagen">
               <img src="img/ferre.png" class="img-responsive">
             </div>
-            <h3 class="text-center">Comercio de articulos para ferreterías</h3>
+            <h3 class="text-center text-subtit">Comercio de articulos para ferreterías</h3>
             <!-- <p class="text-center">Nos especializamos en la comercialización de productos para ferreterías y tlapalerías, partes y refacciones nuevas para automóviles, camionetas y camiones, llegando a los principales canales de distribución, presentando excelentes servicios de venta y pos-venta a nuestros clientes y proporcionando satisfactorios resultados de crecimiento por la distribución de productos a nuestros proveedores.</p> -->
           </div>
-          <div class="col-md-4">
+          <div class="col-xs-12 col-sm-4 col-md-4">
            <div class="imagen">
               <img src="img/tlapa.png" class="img-responsive">
             </div>
-            <h3 class="text-center">Comercio de articulos para tlapalerías</h3>
+            <h3 class="text-center text-subtit">Comercio de articulos para tlapalerías</h3>
             <!-- <p class="text-center">Ser la comercializadora con más amplia cobertura en servicio y tecnología de productos para ferreterías y tlapalerías, partes y refacciones nuevas para automóviles, camionetas y camiones. contando con el más eficiente y competente personal, brindando una atención con calidad y responsabilidad.</p> -->
           </div>
-          <div class="col-md-4">
+          <div class="col-xs-12 col-sm-4 col-md-4">
             <div class="imagen">
               <img src="img/carro.png" class="img-responsive">
             </div>
-            <h3 class="text-center">Comercio de partes y refacciones para automoviles</h3>
+            <h3 class="text-center text-subtit">Comercio de partes y refacciones para automoviles</h3>
             <!-- <p class="text-center">
             * Trabajo en equipo <br>
               * Responsabilidad <br>
@@ -154,24 +160,22 @@
           </div>
         </div>
 
-        <br><br><br>
-
-       <div class="row">
-          <div class="col-md-4 col-md-offset-2">
+       <div class="row margen-arriba">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-2">
             <div class="imagen">
               <img src="img/camion.png" class="img-responsive">
             </div>
-            <h3 class="text-center">Comercio de partes y refacciones para camiones</h3>
+            <h3 class="text-center text-subtit">Comercio de partes y refacciones para camiones</h3>
             <!-- <p class="text-center">Nos especializamos en la comercialización de productos para ferreterías y tlapalerías, partes y refacciones nuevas para automóviles, camionetas y camiones, llegando a los principales canales de distribución, presentando excelentes servicios de venta y pos-venta a nuestros clientes y proporcionando satisfactorios resultados de crecimiento por la distribución de productos a nuestros proveedores.</p> -->
           </div>
-          <div class="col-md-4">
+          <div class="col-xs-12 col-sm-6 col-md-4">
            <div class="imagen">
               <img src="img/van.png" class="img-responsive">
             </div>
-            <h3 class="text-center">Comercio de partes y refacciones para camionetas</h3>
+            <h3 class="text-center text-subtit">Comercio de partes y refacciones para camionetas</h3>
             <!-- <p class="text-center">Ser la comercializadora con más amplia cobertura en servicio y tecnología de productos para ferreterías y tlapalerías, partes y refacciones nuevas para automóviles, camionetas y camiones. contando con el más eficiente y competente personal, brindando una atención con calidad y responsabilidad.</p> -->
           </div>
-      
+
         </div>
     </div>
 </section>
@@ -184,8 +188,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="text-center text-danger">CONTACTO</h1> <br><br><br>
-     
+          <h1 class="text-center text-danger text-dise-nosotros">CONTACTO</h1> <br><br><br>
+
           <p class="lead text-center">Encuentranos cerca de ti, teléfonos, horarios, direcciones y contacto.</p>
         </div>
       </div> <br><br><br>
@@ -194,7 +198,7 @@
       </div>
 
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-3">
             <!-- <img src="img/1.jpg" class="img-responsive"> -->
             <div class="iconos">
               <i class="fa fa-clock-o fa-3x fa-border text-danger" aria-hidden="true"></i>
@@ -203,7 +207,7 @@
             <h2 class="text-center">Horario</h2>
             <p class="text-center">Lunes a Viernes de 9 am a 6 pm</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-3">
             <div class="iconos">
               <i class="fa fa-envelope-o fa-3x fa-border text-danger" aria-hidden="true"></i>
               <!-- <i class="fa fa-address-book-o" aria-hidden="true"></i> -->
@@ -211,7 +215,7 @@
             <h2 class="text-center">Correo</h2>
             <p class="text-center">info@biblocomercializadora.com</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-3">
             <div class="iconos">
               <i class="fa fa-phone fa-3x fa-border text-danger" aria-hidden="true"></i>
               <!-- <i class="fa fa-address-book-o" aria-hidden="true"></i> -->
@@ -221,7 +225,7 @@
             </p>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-3">
             <div class="iconos">
               <i class="fa fa-map-marker fa-3x fa-border text-danger" aria-hidden="true"></i>
               <!-- <i class="fa fa-address-book-o" aria-hidden="true"></i> -->
@@ -240,40 +244,41 @@
 <div class="container1">
 
 
-    <div class="col-lg-offset-4 col-lg-4" id="panel">
+    <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-offset-4 col-lg-4" id="panel">
         <h3 style="color: #fff;">Formulario de contacto</h3>
 
-        <form>
+        <form onSubmit="return false">
 
             <div class="group">
-                <input type="text" required>
+                <input type="text" id="txtNOMBRE" required>
                 <span class="highlight"></span>
                 <span class="bar"></span>
                 <label>Nombre Completo</label>
             </div>
 
             <div class="group">
-                <input type="text" required>
+                <input type="text" id="txtCORREO" required>
                 <span class="highlight"></span>
                 <span class="bar"></span>
                 <label>Email</label>
             </div>
 
             <div class="group">
-                <input type="text" required>
+                <input type="text" id="txtTELEFONO" required>
                 <span class="highlight"></span>
                 <span class="bar"></span>
                 <label>Teléfono</label>
             </div>
 
             <div class="group">
-                <input type="text" required>
+                <input type="text" id="txtCOMENTARIO" required>
                 <span class="highlight"></span>
                 <span class="bar"></span>
                 <label>Comentario</label>
             </div>
             <div class="group">
-                <center> <button type="submit" class="btn btn-danger">Enviar Mensaje &nbsp;&nbsp;<span><i class="fa fa-paper-plane" aria-hidden="true"></i></span></button></center>
+                <div id="_AJAX_PRE_"></div>
+                <center> <button type="submit" class="btn btn-danger" onclick="sendCORREO()">Enviar Mensaje &nbsp;&nbsp;<span><i class="fa fa-paper-plane" aria-hidden="true"></i></span></button></center>
             </div>
         </form>
 
@@ -285,11 +290,13 @@
 <p>Derechos de autor 2017 © | BIBLO COMERCIALIZADORA DEL MAYAB S. de R.L de C.V. </p>
 </footer>
 
+    <script src="js/sendCORREO.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/arriba.js"></script>
-<script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/menu.js"></script>
   </body>
 </html>

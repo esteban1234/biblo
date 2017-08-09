@@ -1,326 +1,195 @@
-p > strong{
-  font-size: 12px;
-}
-
-.bg-primary1{
-  /*background-color: #7f8c8d !important;*/
-  background-image: url("../img/fondo2.jpg") !important;
-}
-
-.color-texto {
-  color: #fff !important;
-}
-
 @media screen and (max-width: 480px){
-
-  body{
-    width: 100%;
-    padding: 0px;
-  }
-
-  .cover{
-    width: 100%;
-    padding: 0px;
-    margin:0px;
-  }
-
-  .col-xs-12{
+  .logo{
+    width: 60%;
     float: none !important;
-    margin: 0px;
+    margin: auto;
   }
 
-  .text-white{
+  nav{
+    margin: 0px;
     width: 100%;
-    margin: 0px;
-    padding: 15px 0px;
-    float: none !important;
-  }
-
-  .new-tamano{
-    font-size: 30px;
-    font-weight: bold;
-  }
-
-  .mt-5{
-    margin: 10% !important;
-  }
-
-  .margin-bottom{
-    margin-bottom: 10px;
-  }
-
-  .lead{
-    text-align: justify;
-  }
-
-  .py-5, .pt-5, .pb-4{
-    padding: 0px !important;
-  }
-
-  .my-3{
-    text-align: center;
-  }
-
-  h4{
-    text-align: center;
-  }
-
-  .new-font-tamano{
-    font-size: 18px;
-    font-weight: bold;
-  }
-
-  .alinear{
-    text-align: justify;
-  }
-
-  .oculto{
     display: none;
   }
 
-  .padding-abajo{
-    padding-bottom: 30px;
+  nav ul .selector{
+    display: block;
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: .5px solid rgba(0,0,0,0.5);
+  }
+
+  .op-menu{
+    text-align: center;
+    padding-bottom: 10px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .seccion1{
+  }
+
+  .text-dise-nosotros{
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .text-nosotros{
+    margin-top: 20px;
+    text-align: justify;
+  }
+
+  .margen-arriba{
+    margin-top: 20px;
+  }
+
+  .text-alineado{
+    text-align: justify;
+    margin-bottom: 40px;
+  }
+
+  /*.imagen{
+    border: 2px solid red;
+  }*/
+
+  .imagen img{
+    width: 80px;
+  }
+
+  .text-subtit{
+    margin: 20px 0px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  #panel h3{
+    text-align: center;
+  }
+
+
+  footer p{
+    margin-top: 10px;
+    width: 90%;
+    font-size: 16px;
   }
 }
 
 @media screen and (max-width: 599px) and (min-width: 481px) {
-  body{
-    width: 100%;
-    padding: 0px;
-  }
-
-  .cover{
-    width: 100%;
-    padding: 0px;
-    margin:0px;
-  }
-
-  .col-xs-12{
+  .logo{
+    width: 40%;
     float: none !important;
-    margin: 0px;
+    margin: auto;
   }
 
-  .text-white{
+  nav{
+    margin: 0px;
     width: 100%;
-    margin: 0px;
-    padding: 15px 0px;
-    float: none !important;
-  }
-
-  .new-tamano{
-    font-size: 30px;
-    font-weight: bold;
-  }
-
-  .mt-5{
-    margin: 10% !important;
-  }
-
-  .margin-bottom{
-    margin-bottom: 10px;
-  }
-
-  .lead{
-    text-align: justify;
-  }
-
-  .py-5, .pt-5, .pb-4{
-    padding: 0px !important;
-  }
-
-  .my-3{
-    text-align: center;
-  }
-
-  h4{
-    text-align: center;
-  }
-
-  .new-font-tamano{
-    font-size: 18px;
-    font-weight: bold;
-  }
-
-  .alinear{
-    text-align: justify;
-  }
-
-  .oculto{
     display: none;
   }
 
-  .padding-abajo{
-    padding-bottom: 30px;
+  nav ul .selector{
+    display: block;
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: .5px solid rgba(0,0,0,0.5);
+  }
+
+  .op-menu{
+    text-align: center;
+    padding-bottom: 10px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .seccion1{
+  }
+
+  .text-dise-nosotros{
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .text-nosotros{
+    margin-top: 20px;
+    text-align: justify;
+  }
+
+  .margen-arriba{
+    margin-top: 20px;
+  }
+
+  .text-alineado{
+    text-align: justify;
+    margin-bottom: 40px;
+  }
+
+  /*.imagen{
+    border: 2px solid red;
+  }*/
+
+  .imagen img{
+    width: 80px;
+  }
+
+  .text-subtit{
+    margin: 20px 0px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  #panel h3{
+    text-align: center;
+  }
+
+
+  footer p{
+    margin-top: 10px;
+    width: 90%;
+    font-size: 16px;
   }
 }
 
 @media screen and (max-width: 799px) and (min-width: 600px) {
-  body{
-    width: 100%;
-    padding: 0px;
-  }
-
-  .cover{
-    width: 100%;
-    padding: 0px;
-    margin:0px;
-  }
-
-  .col-xs-12{
+  .logo{
+    width: 30%;
     float: none !important;
-    margin: 0px;
+    margin: auto;
   }
 
-  .text-white{
+
+  nav{
+    margin: 0px;
     width: 100%;
-    margin: 0px;
-    padding: 15px 0px;
-    float: none !important;
-  }
-
-  .new-tamano{
-    font-size: 30px;
-    font-weight: bold;
-  }
-
-  .mt-5{
-    margin: 10% !important;
-  }
-
-  .margin-bottom{
-    margin-bottom: 10px;
-  }
-
-
-  .lead{
-    text-align: justify;
-  }
-
-  .py-5, .pt-5, .pb-4{
-    padding: 0px !important;
-  }
-
-  .my-3{
-    text-align: center;
-  }
-
-  h4{
-    text-align: center;
-  }
-
-  .new-font-tamano{
-    font-size: 18px;
-    font-weight: bold;
-  }
-
-  .alinear{
-    text-align: justify;
-  }
-
-  .oculto{
     display: none;
   }
 
-  .padding-abajo{
-    padding-bottom: 30px;
+  nav ul .selector{
+    display: block;
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: .5px solid rgba(0,0,0,0.5);
   }
 
-  .margin{
-    margin-top: 20px;
+  .op-menu{
+    text-align: center;
+    padding-bottom: 10px;
+    cursor: pointer;
+    display: block;
   }
 
+  .text-alineado{
+    text-align: justify;
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 800px) {
-
-  body{
-    width: 100%;
-    padding: 0px;
-  }
-
-  .cover{
-    width: 100%;
-    padding: 0px;
-    margin:0px;
-  }
-
-  .col-xs-12{
-    float: none !important;
-    margin: 0px;
-  }
-
-  .text-white{
-    width: 100%;
-    margin: 0px;
-    padding: 15px 0px;
-    float: none !important;
-  }
-
-  .new-tamano{
-    font-size: 30px;
-    font-weight: bold;
-  }
-
-  .mt-5{
-    margin: 10% !important;
-  }
-
-  .margin-bottom{
-    margin-bottom: 10px;
-  }
-
-  .lead{
+  .text-alineado{
     text-align: justify;
-  }
-
-  .py-5, .pt-5, .pb-4, .my-3{
-    padding: 0px !important;
-  }
-
-  .my-3{
-    text-align: center;
-    margin: 0px !important;
-  }
-
-  h4{
-    text-align: center;
-  }
-
-  .new-font-tamano{
-    font-size: 18px;
-    font-weight: bold;
-  }
-
-  .alinear{
-    text-align: justify;
-  }
-
-  .oculto{
-    display: none;
-  }
-
-  .padding-abajo{
-    padding-bottom: 30px;
-  }
-
-  .margin{
-    margin-top: 30px;
-  }
-
-  b{
-    border: 2px solid red;
+    margin-bottom: 40px;
   }
 }
 
 @media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
-  .new-tamano{
-    font-size: 45px;
-    font-weight: bold;
-  }
-
-  .margin{
-    margin-top: 30px;
-  }
 }
 @media screen and (max-width: 1366px) and (min-width: 1024px) { }
 

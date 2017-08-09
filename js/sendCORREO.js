@@ -15,16 +15,16 @@ function sendCORREO(){
             	result +='<p><strong> Ingrese un correo CORRECTO</strong></p>';
         		result +='</div>';
         		__('_AJAX_PRE_').innerHTML = result;
-
-        	if(!exprNUMERO.test(txtTELEFONO)){
-
-			result = '<div class="alert alert-dismissible alert-danger">';
-				result += '<button type="button" class="close" data-dismiss="alert">&times;</button>';
-            	result +='<p><strong> el campo Telefono, tiene que ser solo NUMERICO</strong></p>';
-        		result +='</div>';
-        		__('_AJAX_PRE_').innerHTML = result;
-			}
 		}
+
+		else if(!exprNUMERO.test(txtTELEFONO)){
+		result = '<div class="alert alert-dismissible alert-danger">';
+			result += '<button type="button" class="close" data-dismiss="alert">&times;</button>';
+						result +='<p><strong> el campo Telefono, tiene que ser solo NUMERICO y ser CORRECTO</strong></p>';
+					result +='</div>';
+					__('_AJAX_PRE_').innerHTML = result;
+		}
+
 		else
 		{
 			form = 'txtNOMBRE=' + txtNOMBRE + '&txtCORREO=' + txtCORREO + '&txtTELEFONO=' + txtTELEFONO +'&txtCOMENTARIO=' + txtCOMENTARIO;
@@ -63,7 +63,7 @@ function sendCORREO(){
 
 	setTimeout(function() {
         $('#_AJAX_PRE_').empty(800);
-    },4000);
+    },3000);
 }
 
 

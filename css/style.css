@@ -30,6 +30,11 @@ nav ul .selector{
 #select{
 	color: #000;
 }
+
+.op-menu{
+    display: none;
+}
+
 .banner{
   /*outline: 2px red solid;*/
   /*margin-top: 1%;*/
@@ -114,6 +119,14 @@ nav ul .selector{
 }
 .mapa iframe{
 	width: 100%;
+}
+
+.text-nosotros{
+    margin-top: 60px;
+}
+
+.margen-arriba{
+    margin-top: 60px;
 }
 
 /*--------------FOOTER----------*/

@@ -1,0 +1,327 @@
+/*p > strong{
+  font-size: 12px;
+}
+
+.bg-primary1{
+  background-color: #7f8c8d !important;
+  background-image: url("../img/fondo2.jpg") !important;
+}*/
+/*
+.color-texto {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 480px){
+
+  body{
+    width: 100%;
+    padding: 0px;
+  }
+
+  .cover{
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+  }
+
+  .col-xs-12{
+    float: none !important;
+    margin: 0px;
+  }
+
+  .text-white{
+    width: 100%;
+    margin: 0px;
+    padding: 15px 0px;
+    float: none !important;
+  }
+
+  .new-tamano{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .mt-5{
+    margin: 10% !important;
+  }
+
+  .margin-bottom{
+    margin-bottom: 10px;
+  }
+
+  .lead{
+    text-align: justify;
+  }
+
+  .py-5, .pt-5, .pb-4{
+    padding: 0px !important;
+  }
+
+  .my-3{
+    text-align: center;
+  }
+
+  h4{
+    text-align: center;
+  }
+
+  .new-font-tamano{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .alinear{
+    text-align: justify;
+  }
+
+  .oculto{
+    display: none;
+  }
+
+  .padding-abajo{
+    padding-bottom: 30px;
+  }*/
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+/*  body{
+    width: 100%;
+    padding: 0px;
+  }
+
+  .cover{
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+  }
+
+  .col-xs-12{
+    float: none !important;
+    margin: 0px;
+  }
+
+  .text-white{
+    width: 100%;
+    margin: 0px;
+    padding: 15px 0px;
+    float: none !important;
+  }
+
+  .new-tamano{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .mt-5{
+    margin: 10% !important;
+  }
+
+  .margin-bottom{
+    margin-bottom: 10px;
+  }
+
+  .lead{
+    text-align: justify;
+  }
+
+  .py-5, .pt-5, .pb-4{
+    padding: 0px !important;
+  }
+
+  .my-3{
+    text-align: center;
+  }
+
+  h4{
+    text-align: center;
+  }
+
+  .new-font-tamano{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .alinear{
+    text-align: justify;
+  }
+
+  .oculto{
+    display: none;
+  }
+
+  .padding-abajo{
+    padding-bottom: 30px;
+  }*/
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+/*  body{
+    width: 100%;
+    padding: 0px;
+  }
+
+  .cover{
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+  }
+
+  .col-xs-12{
+    float: none !important;
+    margin: 0px;
+  }
+
+  .text-white{
+    width: 100%;
+    margin: 0px;
+    padding: 15px 0px;
+    float: none !important;
+  }
+
+  .new-tamano{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .mt-5{
+    margin: 10% !important;
+  }
+
+  .margin-bottom{
+    margin-bottom: 10px;
+  }
+
+
+  .lead{
+    text-align: justify;
+  }
+
+  .py-5, .pt-5, .pb-4{
+    padding: 0px !important;
+  }
+
+  .my-3{
+    text-align: center;
+  }
+
+  h4{
+    text-align: center;
+  }
+
+  .new-font-tamano{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .alinear{
+    text-align: justify;
+  }
+
+  .oculto{
+    display: none;
+  }
+
+  .padding-abajo{
+    padding-bottom: 30px;
+  }
+
+  .margin{
+    margin-top: 20px;
+  }*/
+
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+
+ /* body{
+    width: 100%;
+    padding: 0px;
+  }
+
+  .cover{
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+  }
+
+  .col-xs-12{
+    float: none !important;
+    margin: 0px;
+  }
+
+  .text-white{
+    width: 100%;
+    margin: 0px;
+    padding: 15px 0px;
+    float: none !important;
+  }
+
+  .new-tamano{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .mt-5{
+    margin: 10% !important;
+  }
+
+  .margin-bottom{
+    margin-bottom: 10px;
+  }
+
+  .lead{
+    text-align: justify;
+  }
+
+  .py-5, .pt-5, .pb-4, .my-3{
+    padding: 0px !important;
+  }
+
+  .my-3{
+    text-align: center;
+    margin: 0px !important;
+  }
+
+  h4{
+    text-align: center;
+  }
+
+  .new-font-tamano{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .alinear{
+    text-align: justify;
+  }
+
+  .oculto{
+    display: none;
+  }
+
+  .padding-abajo{
+    padding-bottom: 30px;
+  }
+
+  .margin{
+    margin-top: 30px;
+  }
+
+  b{
+    border: 2px solid red;
+  }*/
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+/*  .new-tamano{
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  .margin{
+    margin-top: 30px;
+  }*/
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }
