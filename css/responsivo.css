@@ -65,6 +65,9 @@
     text-align: center;
   }
 
+  .banner2, .banner3{
+    display: none;
+  }
 
   footer p{
     margin-top: 10px;
@@ -140,6 +143,9 @@
     text-align: center;
   }
 
+  .banner2, .banner3{
+    display: none;
+  }
 
   footer p{
     margin-top: 10px;
@@ -179,6 +185,10 @@
   .text-alineado{
     text-align: justify;
     margin-bottom: 40px;
+  }
+  
+  .banner2, .banner3{
+    display: none;
   }
 }
 
