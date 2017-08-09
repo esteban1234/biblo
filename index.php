@@ -3,7 +3,7 @@
   <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
-
+    <meta name="google-site-verification" content="j3OV2AwbNwcgzDiG7KIAr4gKVPkXtjA8eqQ7McaGUV4" />
     <link rel="icon" type="image/png" href="img/favicon.png" />
     <title>BIBLO COMERCIALIZADORA DEL MAYAB</title>
      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
